@@ -1,0 +1,35 @@
+.productos {
+  display: grid;
+
+  margin: 60px;
+  width: 50%;
+  height: 50%;
+  p {
+    color: white;
+    margin: 10px;
+    position: relative;
+    left: 70px;
+  }
+
+  img {
+    position: relative;
+    left: 50px;
+    width: 100%;
+  }
+  button {
+    margin: 10px;
+    position: relative;
+    left: 120px;
+    align-items: center;
+  }
+  span {
+    position: relative;
+    left: 56%;
+    color: white;
+  }
+}
+#comprar {
+  margin: 10px;
+  position: relative;
+  left: 50px;
+}

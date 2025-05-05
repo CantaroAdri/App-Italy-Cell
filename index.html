@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>proyecto2</title>
+  </head>
+  <body>
+    <header class="barra">
+      <!-- TITULO Y LOGO -->
+      <div class="titulo">
+        <img src="img/loco del local .jpg" alt="Logo del local" />
+        <h1>Italy Cell</h1>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <!-- BARRA DE NAVEGACION -->
+      <nav id="enlaces" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active btn btn-secondary" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn btn-secondary" href="#"
+                  >Contactos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-secondary"
+                  href="sub-page/registro.html"
+                  >Iniciar Sesion</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- BUSCADOR -->
+      <div class="buscador">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="buscador"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              buscador
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- PRODUCTOS -->
+      <div class="productos">
+        <div>
+          <img src="productos-img/A01.jpg" alt="A01" />
+          <p>Samsung A01M - A015</p>
+          <button>+</button>
+          <span>0</span>
+          <button>-</button>
+        </div>
+        <button id="comprar">Comprar</button>
+
+        <div>
+          <img src="productos-img/A02.jpg" alt="A02" />
+          <p>Samsung A02 - A12 - M12</p>
+          <button>Comprar</button>
+        </div>
+        <div>
+          <img src="productos-img/a03.jpg" alt="A03" />
+          <p>Samsung A03 - A03s - A02s - A04e</p>
+          <button>Comprar</button>
+        </div>
+        <div>
+          <img src="productos-img/A03 core.jpg" alt="A03 Core" />
+          <p>Samsung A03 Core</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </main>
+    <section></section>
+    <footer></footer>
+    <script src="app.js"></script>
+  </body>
+</html>

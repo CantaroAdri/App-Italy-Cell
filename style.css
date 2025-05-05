@@ -1,0 +1,102 @@
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo h1 {
+  color: white;
+}
+.titulo img {
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.titulo a svg {
+  position: relative;
+  left: 20px;
+  top: 40px;
+  color: white;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#enlaces {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px;
+}
+#enlaces li {
+  display: inline;
+  width: 100%;
+  margin: 20px;
+}
+#enlaces a {
+  position: relative;
+  bottom: 30px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 3px 3px 8px gray;
+  width: 100%;
+  padding: 3px;
+}
+#enlaces a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.buscador {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.productos {
+  display: grid;
+  margin: 60px;
+  width: 50%;
+  height: 50%;
+}
+.productos p {
+  color: white;
+  margin: 10px;
+  position: relative;
+  left: 70px;
+}
+.productos img {
+  position: relative;
+  left: 50px;
+  width: 100%;
+}
+.productos button {
+  margin: 10px;
+  position: relative;
+  left: 120px;
+  align-items: center;
+}
+.productos span {
+  position: relative;
+  left: 56%;
+  color: white;
+}
+
+#comprar {
+  margin: 10px;
+  position: relative;
+  left: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
