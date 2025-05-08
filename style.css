@@ -15,8 +15,7 @@
 }
 .titulo a svg {
   position: relative;
-  left: 20px;
-  top: 40px;
+  top: 50px;
   color: white;
   border-radius: 10px;
   width: 40px;
@@ -65,7 +64,8 @@
   color: white;
   margin: 10px;
   position: relative;
-  left: 70px;
+  left: 50px;
+  text-align: center;
 }
 .productos img {
   position: relative;
@@ -80,7 +80,7 @@
 }
 .productos span {
   position: relative;
-  left: 56%;
+  left: 54%;
   color: white;
 }
 
@@ -88,6 +88,7 @@
   margin: 10px;
   position: relative;
   left: 50px;
+  width: 200px;
 }
 
 * {
